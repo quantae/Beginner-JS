@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Random Numbers App</title>
+    <meta name="description" content="">
+    <!--Responsive meta data-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,500,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="./css/bootstrap-4.3.1-dist/css/bootstrap-grid.css" rel="stylesheet" type="text/css">
+    <link href="./css/bootstrap-4.3.1-dist/css/bootstrap-reboot.css" rel="stylesheet" type="text/css">
+    <link href="./css/bootstrap-4.3.1-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <!--Local css-->
+    <link rel="stylesheet" href="../css/random-number.css" type="text/css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm index-bg-primary-4 fixed-top">
+        <h2>JavaScript Playground</h2>
+    </nav>
+    <div class="container" style="margin-top: 15%;">
+        <div class="row">
+            <div class="col-lg-3 text-white"></div>
+            <div class="col-lg-3">
+                <!-- Bootsrap card to hold the random number contents.-->
+                <div class="card">
+                    <div class="card-header bg-info text-white">
+                        <h6>Random numbers 0 - 20: </h6>
+                    </div>
+                    <div class="card-body text-align-center"><span id="generated-number" class=""></span></div>
+                    <div class="card-footer">
+                        <button class="btn btn-block btn-primary btn-sm" id="generated-number-btn" onclick="random_whole_number()">Generate Number</button>
+                        <button class="btn btn-block btn-primary btn-sm" id="save">Saves</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-header bg-info text-white">
+                        <h6>History</h6>
+                    </div>
+                    <div class="card-body" id="history-display-main">
+                        <div id="history-display">
+
+                        </div>
+                        <div style="padding-top: 1rem;">
+                            <button type="button" id="clear-history" class="btn btn-outline-primary btn-sm btn-block">clear</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3"></div>
+            <!--This div holds the 4th culumn in place for the to-do list contents-->
+            <!--<div class="col-lg-3" id="to-do-bg">
+                <header class="">
+                    <input id="addList" type="text" placeholder="Add task here">
+                    <button id="addItem"><i class="material-icons">
+                                    add
+                                    </i></button>
+                </header>
+                <div class="container">-->
+            <!--Uncompleted task-->
+            <!--<ul id="todoList">
+                        <li>This is an item </i>
+
+                    </ul>
+                </div>
+            </div>-->
+        </div>
+    </div>
+    <!--Javascript calls-->
+    <script src="../js/random_number.js"></script>
+    <script src="../js/to_do.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+
+/*MATERIAL DESIGN
+
+COLORS:
+NB: The main color sits inbetween variant 2 and 3. 
+    i.e. variant 1 and 2 and less intensity of the main color,
+    whilslt variant 3 and 4 are more intensity colors of the main color. */
+
+/*BASELINE MATERIAL THEME*/    
+.primary { color: #C39948 }
+.primary-variant {color: #795209;}
+.secondary {}
+.secondary-variant {}
+
+.background{}
+.surface {}
+.error {}
+
+.on-primary {}
+.on-secondary {}
+
+.on-background {}
+.on-surface {}

@@ -1,0 +1,44 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+body,
+input,
+button {
+    font-family: 'Comfortaa', cursive;
+}
+
+.index-text-primary-1 { color: #7AB3AF }
+.index-text-primary-2 { color: #4B908B }
+.index-text-primary-0 { color: #2C7872 }
+.index-text-primary-3 { color: #18645F }
+.index-text-primary-4 { color: #064A45 }
+
+
+.index-bg-primary-1 { background-color: #7AB3AF }
+.index-bg-primary-2 { background-color: #4B908B }
+.index-bg-primary-0 { background-color: #2C7872 }
+.index-bg-primary-3 { background-color: #18645F }
+.index-bg-primary-4 { background-color: #064A45 }
+
+
+.index-bg-secondary-1-1 { background-color: #8799BD }
+.index-bg-secondary-1-2 { background-color: #596F9C }
+.index-bg-secondary-1-0 { background-color: #385182 }
+.index-bg-secondary-1-3 { background-color: #233C6D }
+.index-bg-secondary-1-4 { background-color: #0E2450 }
+
+.index-bg-secondary-2-1 { background-color: #FFE3AF }
+.index-bg-secondary-2-2 { background-color: #EBC47A }
+.index-bg-secondary-2-0 { background-color: #C39948 }
+.index-bg-secondary-2-3 { background-color: #A37928 }
+.index-bg-secondary-2-4 { background-color: #795209 }
+
+.index-bg-complement-1 { background-color: #FFD2AF }
+.index-bg-complement-2 { background-color: #EBAB7A }
+.index-bg-complement-0 { background-color: #C37D48 }
+.index-bg-complement-3 { background-color: #A35D28 }
+.index-bg-complement-4 { background-color: #793A09 }
+
+.index-text-primary-variant {color: #795209;}
+.index-bg-primary-variant { background-color: #795209;}

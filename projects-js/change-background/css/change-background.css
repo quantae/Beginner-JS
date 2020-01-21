@@ -1,0 +1,13 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+body,
+input,
+button {
+    font-family: 'Comfortaa', cursive;
+}
+
+#change-bg {
+    margin-top: 70%;
+}
